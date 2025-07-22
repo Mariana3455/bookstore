@@ -3,7 +3,6 @@ const app = express()
 const port = process.env.PORT || 4040
 const cors = require('cors')
 const { MongoClient, ServerApiVersion, ObjectId} = require('mongodb');
-const uri = "mongodb+srv://bookStore:bookStore135@front-endback-end.8yv4vjw.mongodb.net/?retryWrites=true&w=majority&appName=Front-endBack-end";
 
 app.use(cors());
 app.use(express.json());
